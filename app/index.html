@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--Css-->
+    <link rel="stylesheet" href="../app/slick/slick.css">
+    <link rel="stylesheet" href="../app/slick/slick-theme.css">
+    <link rel="stylesheet" href="../app/css/main.css">
+    <link rel="stylesheet" href="../app/css/responsive.css">
+    <!--Fonts Awesome-->
+    <link rel="stylesheet" href="../app/font-awesome/css/all.min.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="header__top">
+            <div class="header_wrapper container">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header___nav-items">
+                            <button class="header____nav-dropdown-button">
+                                English
+                            </button>
+                            <i class="fas fa-chevron-down"></i>
+                        </li>
+                        <ul class="header__nav-dropdown-menu header__active">
+                            <li class="header__nav-dropdown-items">Русский</li>
+                            <li class="header__nav-dropdown-items">Türkçe</li>
+                            <li class="header__nav-dropdown-items">Español</li>
+                        </ul>
+                        <li class="header___nav-items">
+                            <i class="fas fa-users"></i>
+                            <a href="#">Contact Center</a>
+                        </li>
+                        <li id="hDRM" class="header___nav-items">
+                            <a href="#">Country Profile</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="header__nav-dropdown-menu-second header__active">
+                                <li class="header__nav-dropdown-items">Ru</li>
+                                <li class="header__nav-dropdown-items">Tü</li>
+                                <li class="header__nav-dropdown-items">Es</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__menu">
+            <div class="header__center container">
+                <img class="dhl_logo" src="../app/img/header/dhl_logo.png" alt="DHL">
+                <div class="header__logistics">
+                    <ul>
+                        <li class="header__logistics-items"><a href="#">Express</a></li>
+                        <li class="header__logistics-items"><a href="#">Parcel & Ecommerce</a></li>
+                        <li class="header__logistics-items"><a href="#">Logistics</a></li>
+                        <li class="header__logistics-items"><a href="#">Mail</a></li>
+                        <li class="header__logistics-items"><a href="#">Press</a></li>
+                        <li class="header__logistics-items"><a href="#">About</a></li>
+                    </ul>
+                </div>
+ 
+                <div class="header__search-box">
+                    <input class="search-txt" type="text" placeholder="Введите текст">
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__slider">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="slider__block container">
+                        <h1>We Deliver With Speed</h1>
+                        <p>When an unknown printer took a galley of type and scrambled<br>
+                            it to make a type specimen book. It has survived not only five centuries</p>
+                        <div class="slider__choice">
+                            <p>Amazing</p>
+                            <p>Quick</p>
+                            <p>24/7 Supports</p>
+                        </div>
+                        <a class="header__learn-more" href="#">Learn More</a>
+                        <a class="header__learn-more header__learn-more-worldwide" href="#">dhl worldwide</a>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slider__block container">
+                        <h1>We Deliver With Speed</h1>
+                        <p>When an unknown printer took a galley of type and scrambled<br>
+                            it to make a type specimen book. It has survived not only five centuries</p>
+                        <div class="slider__choice">
+                            <p>Amazing</p>
+                            <p>Quick</p>
+                            <p>24/7 Supports</p>
+                        </div>
+                        <a class="header__learn-more" href="#">Learn More</a>
+                        <a class="header__learn-more header__learn-more-worldwide" href="#">dhl worldwide</a>
+                    </div>
+                </div>
+
+                <div class="mySlides fade seret">
+                    <div class="slider__block container">
+                        <h1>We Deliver With Speed</h1>
+                        <p>When an unknown printer took a galley of type and scrambled<br>
+                            it to make a type specimen book. It has survived not only five centuries</p>
+                        <div class="slider__choice">
+                            <p>Amazing</p>
+                            <p>Quick</p>
+                            <p>24/7 Supports</p>
+                        </div>
+                        <a class="header__learn-more" href="#">Learn More</a>
+                        <a class="header__learn-more header__learn-more-worldwide" href="#">dhl worldwide</a>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="dot__style">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Section One-->
+    <section class="awesome__services">
+        <div class="awesome__services-wrapper container">
+            <div class="awesome__services-title">
+                <h1>Services</h1>
+                <p>Awesome Services</p>
+            </div>
+            <div class="awesome__services-express">
+                <div class="awesome__wrapper-cards">
+                    <div class="awesome__card">
+                        <img src="../app/img/Section One/image.png" alt="">
+                        <h2>Express Services</h2>
+                        <p>When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+                        <a href="#">Read More</a>
+                        <i class="fas fa-caret-right"></i>
+                    </div>
+
+                    <div class="awesome__card">
+                        <img src="../app/img/Section One/image1.png" alt="">
+                        <h2>Express Services</h2>
+                        <p>When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+                        <a href="#">Read More</a>
+                        <i class="fas fa-caret-right"></i>
+                    </div>
+
+                    <div class="awesome__card">
+                        <img src="../app/img/Section One/image2.png" alt="">
+                        <h2>Express Services</h2>
+                        <p>When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+                        <a href="#">Read More</a>
+                        <i class="fas fa-caret-right"></i>
+                    </div>
+
+                    <div class="awesome-point">
+                        <div class="awesome-point-wrapper">
+                            <h2>DHl Worldwide</h2>
+                            <p>When an unknown prot printer type and scra</p>
+                            <div class="select">
+                                <div class="select__awesome">
+                                    <span class="select__current">Выберите</span>
+                                    <div class="select__icon"><i class="fas fa-chevron-down"></i></div>
+                                </div>
+
+                                <div class="select__body">
+                                    <div class="select__item">Текст 1</div>
+                                    <div class="select__item">Текст 2</div>
+                                    <div class="select__item">Текст 3</div>
+                                    <div class="select__item">Текст 4</div>
+                                    <div class="select__item">Текст 5</div>
+                                </div>
+                            </div>
+                            <a href="#">explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Two-->
+    <section class="international">
+        <div class="international__service">
+            <video class="international__service-video" controls loop poster="../app/img/Section Two/provider.png"
+                src="../app/video/DHL Supply Chain Asia Pacific_VhJLHvKQKuY_1080p.mp4"></video>
+        </div>
+
+        <div class="international__provider container">
+            <div class="provider__items">
+                <img src="../app/img/Section Two/Layer-7.png" alt="">
+                <div class="provider__items-wrapper">
+                    <h2>Aerospace Provider</h2>
+                    <ul class="provider__menu">
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">When an unknown printer took.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                    <ul class="provider__submenu submenu-active">
+                                        <li>
+                                            <i class="fas fa-caret-right"></i>
+                                            <a href="#">When an unknown.</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">It has survived.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">Make a type specimen book.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">It has survived.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">Airlines unknown specimen.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">It has survived.</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="provider__items">
+                <img src="../app/img/Section Two/Layer-9.png" alt="">
+                <div class="provider__items-wrapper">
+                    <h2>Aerospace Provider</h2>
+                    <ul class="provider__menu">
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">When an unknown printer took.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                    <ul class="provider__submenu submenu-active">
+                                        <li>
+                                            <i class="fas fa-caret-right"></i>
+                                            <a href="#">When an unknown.</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">It has survived.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">Make a type specimen book.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">It has survived.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">Airlines unknown specimen.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">It has survived.</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="provider__items">
+                <img src="../app/img/Section Two/Layer-8.png" alt="">
+                <div class="provider__items-wrapper">
+                    <h2>Aerospace Provider</h2>
+                    <ul class="provider__menu">
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">When an unknown printer took.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                    <ul class="provider__submenu submenu-active">
+                                        <li>
+                                            <i class="fas fa-caret-right"></i>
+                                            <a href="#">When an unknown.</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">It has survived.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">Make a type specimen book.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">It has survived.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">Airlines unknown specimen.</a>
+                            <ul class="provider__submenu submenu-active">
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">When an unknown printer.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">Make a type specimen.</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right"></i>
+                                    <a href="#">It has survived.</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section Three-->
+    <section class="register">
+        <div class="regisrer__wrapper container">
+
+            <div class="form__wrap">
+                <div class="register__block">
+                    <div class="register__block-header">
+                        <div id="tabExpressOne" class="tabs tabs-active">express</div>
+                        <div id="tabLogisticsOne" class="tabs">logistics</div>
+                    </div>
+
+                    <form id="tabExpress" class="tab__form">
+                        <div class="tab__form-field">
+                            <div class="tab__form-field-select">
+                                <span class="field__current">Track your shipment</span>
+                                <div class="field__icon"><i class="fas fa-chevron-down"></i></div>
+                            </div>
+
+                            <div class="form__field-body">
+                                <div class="form__field-items">Ваш выбор №1</div>
+                                <div class="form__field-items">Ваш выбор №2</div>
+                                <div class="form__field-items">Ваш выбор №3</div>
+                                <div class="form__field-items">Ваш выбор №4</div>
+                            </div>
+                        </div>
+
+                        <div class="tab__form-field">
+                            <div class="tab__form-field-select">
+                                <span class="field__current">New login</span>
+                                <div class="field__icon"><i class="fas fa-chevron-down"></i></div>
+                            </div>
+
+                            <div class="form__field-body">
+                                <div class="form__field-items">Ваш выбор №1</div>
+                                <div class="form__field-items">Ваш выбор №2</div>
+                                <div class="form__field-items">Ваш выбор №3</div>
+                                <div class="form__field-items">Ваш выбор №4</div>
+                            </div>
+                        </div>
+
+                        <div class="tab__form-field">
+                            <div class="tab__form-field-select">
+                                <span class="field__current">Find Dhl point</span>
+                                <div class="field__icon"><i class="fas fa-chevron-down"></i></div>
+                            </div>
+
+                            <div class="form__field-body">
+                                <div class="form__field-items">Ваш выбор №1</div>
+                                <div class="form__field-items">Ваш выбор №2</div>
+                                <div class="form__field-items">Ваш выбор №3</div>
+                                <div class="form__field-items">Ваш выбор №4</div>
+                            </div>
+                        </div>
+
+                        <div class="tab__form-field">
+                            <div class="tab__form-field-select">
+                                <span class="field__current">find a service</span>
+                                <div class="field__icon"><i class="fas fa-chevron-down"></i></div>
+                            </div>
+
+                            <div class="form__field-menu">
+                                <div class="special__body-wrapper">
+                                    <span>International Services to Another Country</span>
+                                    <ul class="special__body-wrapper-items">
+                                        <li class="special__li">
+                                            <i class="fas fa-caret-right"></i>
+                                            <a href="#">Emergency</a>
+                                            <ul class="special__ul">
+                                                <li class="special__li">
+                                                    <i class="fas fa-caret-right"></i>
+                                                    <a href="#">Emergency Done</a>
+                                                    <ul class="special__ul">
+                                                        <li class="special__li">
+                                                            <i class="fas fa-caret-right"></i>
+                                                            <a href="#">Emergency Done</a>
+                                                            <ul class="special__ul"></ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="special__body-wrapper-items">
+                                        <li class="special__li">
+                                            <i class="fas fa-caret-right"></i>
+                                            <a href="#">Emergency</a>
+                                            <ul class="special__ul">
+                                                <li class="special__li">
+                                                    <i class="fas fa-caret-right"></i>
+                                                    <a href="#">Emergency Done</a>
+                                                    <ul class="special__ul">
+                                                        <li class="special__li">
+                                                            <i class="fas fa-caret-right"></i>
+                                                            <a href="#">Emergency Done</a>
+                                                            <ul class="special__ul"></ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <form id="tabLogistics" class="tab__form change__form">
+                        <label for="name" class="date"><b>Имя пользователя</b></label>
+                        <input class="logistic__date" type="text" placeholder="Введите имя пользователя" id="name"
+                            required>
+
+                        <label for="pswd" class="date"><b>Пароль</b></label>
+                        <input class="logistic__date" type="password" placeholder=" Ведите пароль" id="pswd" name="psw"
+                            required>
+
+                        <label for="email" class="date"><b>Email</b></label>
+                        <input class="logistic__date" type="email" placeholder=" Ведите email" id="email" required>
+
+                        <div class="radio__block">
+                            <label class="form__radio">M
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="form__radio">Ж
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label for="rme" class="remember__me">
+                                <input type="checkbox" checked="checked" id="rme" name="remember">Запомнить меня
+                                <span class="remember__me-checkmark"></span>
+                            </label>
+                        </div>
+
+                        <button class="form__button-send" type="submit">Отправить</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <img class="register__icon" src="../app/img/Section Three/layers.png" alt="">
+        </div>
+    </section>
+
+    <!--Section Four-->
+    <section class="excellence">
+        <div class="excellence__wrapper container">
+            <div class="excellence__simply">
+                <h1>Excellence. Simply delivered.</h1>
+                <p>International express deliveries; global freight forwarding by air, sea, road and rail;<br>
+                    warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;<br>
+                    and other customized logistic services – with everything DHL does, we<br>
+                    help connect people and improve their lives.
+                </p>
+            </div>
+            <div class="excellence__btn">
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Five-->
+    <section class="marketing">
+        <div class="marketing__wrapper container">
+            <div class="marketing__slider">
+                <div class="marketing__one">
+                    <img src="../app/img/SectionFive/d.png" alt="">
+                </div>
+
+                <div class="marketing__two">
+                    <img src="../app/img/SectionFive/c.png" alt="">
+                </div>
+
+                <div class="marketing__three">
+                    <img src="../app/img/SectionFive/b.png" alt="">
+                </div>
+
+                <div class="marketing__four">
+                    <img src="../app/img/SectionFive/a.png" alt="">
+                </div>
+
+                <div class="marketing__five">
+                    <img src="../app/img/SectionFive/d.png" alt="">
+                </div>
+
+                <div class="marketing__six">
+                    <img src="../app/img/SectionFive/c.png" alt="">
+                </div>
+
+                <div class="marketing__seven">
+                    <img src="../app/img/SectionFive/b.png" alt="">
+                </div>
+
+                <div class="marketing__eight">
+                    <img src="../app/img/SectionFive/a.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Five-->
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <div class="footer__media-center">
+
+                <div class="footer__cards">
+                    <h2>Contact Center</h2>
+                    <div class="cards__items">
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">DHL Express</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">Express</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">DHL Parcel & eCommerce</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">DHL Parcel</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">DHL Global Forwarding</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">DHL Global</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">DHL Freight</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">DHL Freight</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">DHL Supply Chain</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">DHL Supply</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__cards">
+                    <h2>About Us</h2>
+                    <div class="cards__items">
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">Partnerships</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">Partner</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">Company Portrait</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">Company</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">DHL Global Forwarding</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">DHL Global</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">Green Solutions</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">Green</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">Innovation</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">Inn</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__cards">
+                    <h2>Social Media</h2>
+                    <div class="cards__items">
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">Facebook</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">Face</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">dribbble</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">dri</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">behance</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">be</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">gmail</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">gm</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="footer__spec-ul">
+                            <li class="media__li">
+                                <a href="#">twitter</a>
+                                <ul class="media__ul">
+                                    <li class="media__li">
+                                        <a href="#">tw</a>
+                                        <ul class="media__ul"></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Script-->
+    <script src="../app/js/jquery-3.5.0.min.js"></script>
+    <script src="../app/slick/slick.min.js"></script>
+    <script src="../app/js/headerDropLeftMenu.js"></script>
+    <script src="../app/js/headerDropRightMenu.js"></script>
+    <script src="../app/js/headerCenterMenu.js"></script>
+    <script src="../app/js/headerSearchBox.js"></script>
+    <script src="../app/js/slider.js"></script>
+    <script src="../app/js/awesomeSelect.js"></script>
+    <script src="../app/js/providerSubmenu.js"></script>
+    <script src="../app/js/registerBlock.js"></script>
+    <script src="../app/js/expressBlock.js"></script>
+    <script src="../app/js/findAService.js"></script>
+    <script src="../app/js/marketingSlider.js"></script>
+    <script src="../app/js/footerMenu.js"></script>
+</body>
+
+</html>
